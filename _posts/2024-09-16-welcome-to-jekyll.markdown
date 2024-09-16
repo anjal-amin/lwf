@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Automating Lab Procedures"
 date:   2024-09-16 15:37:17 -0400
 categories: jekyll update
 ---
