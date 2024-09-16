@@ -84,41 +84,6 @@ To manually deploy the site to GitHub Pages, follow these steps:
 
 GitHub Actions will handle the build and deployment process for you.
 
-Code Snippet Example
---------------------
-
-Here's a simple Python script that receives a signal from a remote Raspberry Pi and stores the data in a Google Cloud Platform (GCP) database. This snippet demonstrates how you might integrate with a GCP database:
-
-python
-
-Copy code
-
-````python
-import requests
-import json
-
-# Replace with your GCP database URL
-DB_URL = 'https://your-gcp-db-url.com/endpoint'
-
-# Function to receive data from a Raspberry Pi
-def receive_data(signal):
-    data = {
-        'signal': signal,
-        'timestamp': '2024-09-16T15:37:17Z'
-    }
-
-    # Send data to GCP database
-    response = requests.post(DB_URL, json=data)
-
-    if response.status_code == 200:
-        print('Data successfully stored in GCP database.')
-    else:
-        print(f'Failed to store data: {response.status_code} - {response.text}')
-
-# Example usage
-receive_data('example_signal_data')
-````
-
 License
 -------
 
