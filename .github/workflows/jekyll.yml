@@ -22,7 +22,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'  # Update this to match the Ruby version you're using
+          ruby-version: '3.1'  # Adjust if needed
 
       - name: Install dependencies
         run: |
