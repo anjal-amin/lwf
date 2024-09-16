@@ -58,4 +58,3 @@ With over a decade of experience in diverse projects, we have successfully imple
 ### Example: Receiving Data from a Raspberry Pi
 
 To illustrate how automation can streamline data collection, consider this simple Python script. It receives a signal from a remote Raspberry Pi and stores the data in a Google Cloud Platform (GCP) database. 
-
