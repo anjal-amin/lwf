@@ -10,10 +10,6 @@ Pulling the Repository
 
 To get started with the repository, clone it using:
 
-bash
-
-Copy code
-
 ````bash
 git clone https://github.com/anjal-amin/lwf.git
 cd lwf
@@ -24,10 +20,6 @@ Build the Site Locally
 
 Before building the site, make sure you have Ruby and Bundler installed. If not, you can install them using the following commands:
 
-go
-
-Copy code
-
 ````bash
 # Install Bundler
 gem install bundler
@@ -35,19 +27,11 @@ gem install bundler
 
 Once Bundler is installed, use it to install the necessary gems:
 
-go
-
-Copy code
-
 ````bash
 bundle install
 ````
 
 To build the site locally and view it, use:
-
-bash
-
-Copy code
 
 ````bash
 # Build the site
@@ -73,10 +57,6 @@ To manually deploy the site to GitHub Pages, follow these steps:
 1.  Make sure you have committed your changes.
 
 2.  Push your changes to the `main` branch:
-
-    bash
-
-    Copy code
 
     `git add .
     git commit -m "Describe your changes"
