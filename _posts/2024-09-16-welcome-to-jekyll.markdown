@@ -17,6 +17,10 @@ Laboratories often face repetitive, tedious, and error-prone tasks that can bog 
 
 Human error is a common challenge in lab environments. Automation helps mitigate these errors by performing tasks with high accuracy and consistency. This not only ensures reliable results but also improves the overall quality of your research and data. Our systems are tailored to meet your specific needs, ensuring that every process is optimized for your lab’s unique requirements.
 
+### Example: Receiving Data from a Raspberry Pi
+To illustrate how automation can streamline
+ data collection, consider this simple Python script. It receives a signal from a remote Raspberry Pi and stores the data in a Google Cloud Platform (GCP) database. 
+
 ```python
 import requests
 import json
@@ -53,8 +57,6 @@ Our team specializes in understanding the specific needs of your laboratory. We 
 
 ### Past Successes
 
-With over a decade of experience in diverse projects, we have successfully implemented automation solutions for various laboratories. Our expertise includes everything from simple workflow automation to advanced systems for data processing and analysis. We have a proven track record of improving lab performance and reducing costs for our clients.
+With over a decade of experience in diverse projects, we have successfully implemented automation solutions for various organizations. Our expertise includes everything from simple workflow automation to advanced systems for data processing and analysis. We have a proven track record of improving lab performance and reducing costs for our clients.
 
-### Example: Receiving Data from a Raspberry Pi
 
-To illustrate how automation can streamline data collection, consider this simple Python script. It receives a signal from a remote Raspberry Pi and stores the data in a Google Cloud Platform (GCP) database. 
