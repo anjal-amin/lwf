@@ -64,10 +64,10 @@ To manually deploy the site to GitHub Pages, follow these steps:
 
 2.  Push your changes to the `main` branch:
 
-    git add .
-    git commit -m "Describe your changes"
-    git push origin main
-
+````git add .
+git commit -m "Describe your changes"
+git push origin main`
+````
 GitHub Actions will handle the build and deployment process for you.
 
 License
