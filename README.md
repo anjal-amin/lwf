@@ -18,7 +18,13 @@ cd lwf
 Build the Site Locally
 ----------------------
 
-Before building the site, make sure you have Ruby and Bundler installed. If not, you can install them using the following commands:
+Before building the site, make sure you have Ruby and Bundler installed. 
+
+* On Ubuntu
+** do NOT install the snap version of ruby.
+** after installing bundler: `bundle config path ~/.local/ruby-gem` # or pick your own random ruby-gem location
+
+If not, you can install them using the following commands:
 
 ````bash
 # Install Bundler
@@ -58,9 +64,9 @@ To manually deploy the site to GitHub Pages, follow these steps:
 
 2.  Push your changes to the `main` branch:
 
-    `git add .
+    git add .
     git commit -m "Describe your changes"
-    git push origin main`
+    git push origin main
 
 GitHub Actions will handle the build and deployment process for you.
 
