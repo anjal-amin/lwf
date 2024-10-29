@@ -6,6 +6,7 @@ layout: default
 
   <!-- Add the logo image here -->
   <img src="{{ 'assets/images/lw-logo.png' | relative_url }}" alt="Logo" class="logo">
+  <br/>
   <!-- p>{{ site.description }}</p -->
   {% assign latest_post = site.posts | first %}
   <article>
