@@ -7,7 +7,7 @@ layout: default
   <p>{{ site.description }}</p>
 
   <!-- Add the logo image here -->
-  <img src="{{ 'assets/images/logo.png' | relative_url }}" alt="Logo" class="logo">
+  <img src="{{ '/assets/images/lw-logo.png' | relative_url }}" alt="Logo" class="logo">
 
   {% assign latest_post = site.posts | first %}
   <article>
