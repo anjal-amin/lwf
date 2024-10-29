@@ -5,8 +5,6 @@ date: 2024-09-16 15:37:17 -0400
 categories: automation lab-procedures efficiency
 ---
 
-## Automating Lab Procedures to Improve Efficiency and Reduce Costs
-
 In today’s fast-paced scientific environment, efficiency and cost-effectiveness are paramount. Automating lab procedures can significantly enhance the performance of laboratory workflows, leading to improved efficiency and reduced operational costs. Here’s how our services can help your lab achieve these benefits.
 
 ### Enhancing Efficiency Through Automation
@@ -23,25 +21,19 @@ To illustrate how automation can streamline
 
 ```python
 import requests
-import json
 from google.cloud import firestore
 
 # Initialize Firestore client
 db = firestore.Client()
 
 def store_data(data):
-    # Store data in GCP Firestore
-    doc_ref = db.collection('signals').add(data)
-    print(f'Data stored with ID: {doc_ref.id}')
+    db.collection('signals').add(data)
+    print('Data stored successfully.')
 
 def receive_signal():
-    # Simulate receiving data from a remote Raspberry Pi
     response = requests.get('http://remote-raspberrypi.local/data')
-    if response.status_code == 200:
-        data = response.json()
-        store_data(data)
-    else:
-        print('Failed to receive data')
+    if response.ok:
+        store_data(response.json())
 
 if __name__ == '__main__':
     receive_signal()
