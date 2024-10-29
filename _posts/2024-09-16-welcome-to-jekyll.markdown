@@ -23,25 +23,19 @@ To illustrate how automation can streamline
 
 ```python
 import requests
-import json
 from google.cloud import firestore
 
 # Initialize Firestore client
 db = firestore.Client()
 
 def store_data(data):
-    # Store data in GCP Firestore
-    doc_ref = db.collection('signals').add(data)
-    print(f'Data stored with ID: {doc_ref.id}')
+    db.collection('signals').add(data)
+    print('Data stored successfully.')
 
 def receive_signal():
-    # Simulate receiving data from a remote Raspberry Pi
     response = requests.get('http://remote-raspberrypi.local/data')
-    if response.status_code == 200:
-        data = response.json()
-        store_data(data)
-    else:
-        print('Failed to receive data')
+    if response.ok:
+        store_data(response.json())
 
 if __name__ == '__main__':
     receive_signal()
