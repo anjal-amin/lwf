@@ -70,6 +70,15 @@ git push origin main`
 ````
 GitHub Actions will handle the build and deployment process for you.
 
+Update Page
+---------------
+
+### Projects Page
+
+Edit projects.md.
+Add images to assets/images.
+Reference images using absolute paths ```(![Button A](/assets/images/button-1.png)```
+
 License
 -------
 
