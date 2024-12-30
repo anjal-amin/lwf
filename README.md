@@ -54,7 +54,7 @@ Deploy the Site
 
 ### GitHub Pages Deployment
 
-To deploy the site to GitHub Pages, you can use the GitHub Actions workflow defined in `.github/workflows/jekyll.yml`. This workflow will automatically build and deploy the site whenever changes are pushed to the `main` branch.
+To deploy the LF site to GitHub Pages, you can use the GitHub Actions workflow defined in `.github/workflows/jekyll.yml`. This workflow will automatically build and deploy the site whenever changes are pushed to the `main` branch.
 
 ### Manual Deployment
 
@@ -90,3 +90,4 @@ Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. We welcome contributions and appreciate your interest in improving this project!
 
 For more detailed documentation, please visit the [Jekyll documentation](https://jekyllrb.com/docs/).
+
