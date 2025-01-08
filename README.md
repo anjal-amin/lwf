@@ -10,10 +10,9 @@ Pulling the Repository
 
 To get started with the repository, clone it using:
 
-````bash
-git clone https://github.com/anjal-amin/lwf.git
-cd lwf
-````
+        bash
+        git clone https://github.com/anjal-amin/lwf.git
+        cd lwf
 
 Build the Site Locally
 ----------------------
@@ -21,31 +20,28 @@ Build the Site Locally
 Before building the site, make sure you have Ruby and Bundler installed. 
 
 * On Ubuntu
-** do NOT install the snap version of ruby.
-** after installing bundler: `bundle config path ~/.local/ruby-gem` # or pick your own random ruby-gem location
+  * do NOT install the snap version of ruby.
+  * after installing bundler: `bundle config path ~/.local/ruby-gem` # or pick your own random ruby-gem location
 
-If not, you can install them using the following commands:
+* If not Ubuntu, you can install them using the following commands:
 
-````bash
-# Install Bundler
-gem install bundler
-````
+        bash
+        # Install Bundler
+        gem install bundler
 
 Once Bundler is installed, use it to install the necessary gems:
 
-````bash
-bundle install
-````
+        bash
+        bundle install
 
 To build the site locally and view it, use:
 
-````bash
-# Build the site
-bundle exec jekyll build
+        bash
+        # Build the site
+        bundle exec jekyll build
 
-# Serve the site locally
-bundle exec jekyll serve
-````
+        # Serve the site locally
+        bundle exec jekyll serve
 
 Your site will be available at <http://localhost:4000>.
 
@@ -64,10 +60,10 @@ To manually deploy the site to GitHub Pages, follow these steps:
 
 2.  Push your changes to the `main` branch:
 
-````git add .
-git commit -m "Describe your changes"
-git push origin main`
-````
+        git add .
+        git commit -m "Describe your changes"
+        git push origin main`
+
 GitHub Actions will handle the build and deployment process for you.
 
 Update Page
@@ -75,9 +71,9 @@ Update Page
 
 ### Projects Page
 
-Edit projects.md.
-Add images to assets/images.
-Reference images using absolute paths ```(![Button A](/assets/images/button-1.png)```
+* Edit projects.md.
+* Add images to assets/images.
+* Reference images using absolute paths ```(![Button A](/assets/images/button-1.png)```
 
 License
 -------
