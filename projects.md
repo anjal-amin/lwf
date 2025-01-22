@@ -28,6 +28,7 @@ Creating tools that enable open-science and improve experimental workflows.
   - Operates during power outages or internet loss.
   - Open-source, adaptable, and no subscription fee, offering a cost-effective alternative to commercial solutions.
 
+  ![Innards](/assets/images/minus80-innards-512x512.jpg)
 ---
 
 ## 3. Six-Headed Peristaltic Pump
@@ -36,4 +37,5 @@ Creating tools that enable open-science and improve experimental workflows.
   - Runs pumps independently or in complex patterns, including reverse flow.
   - Open-source and remotely accessible via browser or lab interface.
 
+  ![Pump](/assets/images/pump-outer-512x512.jpg)
 ---
